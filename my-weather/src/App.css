@@ -16,16 +16,13 @@ body{
 
 .App{
   width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.Container{
+/* .Container{
   max-width: 1200px;
   width: 1200px;
   min-width: 330px;
-  height: 100vh;
   display: flex;
   justify-content: center;
-}
+  flex-wrap: wrap;
+} */

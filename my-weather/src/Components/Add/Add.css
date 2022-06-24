@@ -3,6 +3,16 @@
     height: 150px;
     margin-top: 100px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapperAdd{
+    max-width: 1200px;
+    width: 1200px;
+    min-width: 330px;
+    height: 150px;
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
@@ -33,17 +43,18 @@
 .bi-search:hover{
     background-color: rgb(122, 122, 122);
     color: white;
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .bi-search:not(hover){
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .addLocation{
     display: flex;
     justify-content: center;
     align-items: center;
+    grid-gap: 10px;
 }
 
 section h1{
@@ -67,4 +78,15 @@ section p{
     align-items: center;
     border-radius: 100%;
     color: white;
+
+    cursor: pointer;
+}
+
+.plus:hover{
+    background-color: rgb(84, 198, 240);
+    transition: 0.3s;
+}
+
+.plus:not(hover){
+    transition: 0.3s;
 }
